@@ -10,44 +10,44 @@
     <header class="text-3xl mt-5 h-[50px] flex justify-center items-center text-white">
         Tic Tac Toe
     </header>
-    <main class="flex justify-center items-center h-[420px]">
-        <div class="grid gap-4 grid-rows-3 grid-cols-3 w-[340px]">
-            <button id="0" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-            <button id="1" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-            <button id="2" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-            <button id="3" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-            <button id="4" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-            <button id="5" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-            <button id="6" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-            <button id="7" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-            <button id="8" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
-
-        </div>
-        <div id="L2Rdiagonal" class="hidden absolute bg-green-500 w-[480.83px] h-[5px] rotate-45 rounded-2xl">
+    <main class="flex justify-center items-center h-[430px]">
+        <div class="relative w-[380px] h-[380px] flex justify-center items-center">
+            <div class="grid gap-4 grid-rows-3 grid-cols-3 w-[340px]">
+                <button id="0" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+                <button id="1" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+                <button id="2" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+                <button id="3" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+                <button id="4" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+                <button id="5" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+                <button id="6" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+                <button id="7" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+                <button id="8" class="w-[100px] h-[100px] bg-[#fffffff1] rounded-xl flex justify-center items-center"></button>
+            </div>
+            <div id="L2Rdiagonal" class="hidden absolute bg-green-500 w-[500px] h-[5px] rotate-45 rounded-2xl">
             
-        </div>
-        <div id="R2Ldiagonal" class="hidden absolute bg-green-500 w-[480.83px] h-[5px] -rotate-45 rounded-2xl">
+            </div>
+            <div id="R2Ldiagonal" class="hidden absolute bg-green-500 w-[500px] h-[5px] -rotate-45 rounded-2xl">
             
-        </div>
-        <div id="R2" class="hidden absolute bg-green-500 w-[355px] h-[5px] rounded-2xl">
+            </div>
+            <div id="R2" class="hidden absolute bg-green-500 w-[365px] h-[5px] rounded-2xl">
             
-        </div>
-        <div id="R1" class="hidden absolute top-[162px] bg-green-500 w-[355px] h-[5px] rounded-2xl">
+            </div>
+            <div id="R1" class="hidden absolute top-[71px] bg-green-500 w-[365px] h-[5px] rounded-2xl">
+                
+            </div>
+            <div id="R3" class="hidden absolute top-[303px] bg-green-500 w-[365px] h-[5px] rounded-2xl">
+                
+            </div>
+            <div id="C2" class="hidden absolute bg-green-500 w-[365px] h-[5px] rotate-90 rounded-2xl">
             
-        </div>
-        <div id="R3" class="hidden absolute top-[394px] bg-green-500 w-[355px] h-[5px] rounded-2xl">
+            </div>
+            <div id="C1" class="hidden absolute right-[128px] bg-green-500 w-[365px] h-[5px] rotate-90 rounded-2xl">
             
+            </div>
+            <div id="C3" class="hidden absolute left-[125px] bg-green-500 w-[365px] h-[5px] rotate-90 rounded-2xl">
+                
+            </div>
         </div>
-        <div id="C2" class="hidden absolute bg-green-500 w-[355px] h-[5px] rotate-90 rounded-2xl">
-            
-        </div>
-        <div id="C1" class="hidden absolute left-[470px] bg-green-500 w-[355px] h-[5px] rotate-90 rounded-2xl">
-            
-        </div>
-        <div id="C3" class="hidden absolute right-[473px] bg-green-500 w-[355px] h-[5px] rotate-90 rounded-2xl">
-            
-        </div>
-        
     </main>
     <footer class="flex items-center flex-col gap-5">
         <div id="matchResult" class="text-white text-3xl h-9">
@@ -57,10 +57,7 @@
             Reset Game
         </button>
     </footer>
-    
-    <!-- <div class="bg-lime-500 h-[10px] w-[340px] m-auto">
-        
-    </div> -->
+
     <script src="script.js"></script>
 </body>
 </html>
